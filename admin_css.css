@@ -1,0 +1,196 @@
+body{
+	background-image: url('../Image/admin_profile_pg.png');
+	font-family: Helvetica;
+}
+
+#home{
+	background-image: url('../Image/home.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ .links{
+	position: absolute;
+	top: 40%;
+	left: 41%;
+} 
+
+center>h1{
+	color: red;
+	position: absolute;
+	top: 5%;
+	left: 38%;
+	box-sizing: border-box;
+}
+
+.show{
+	position: absolute;
+	top: 52px;
+	left: 30%;
+}
+
+.std{
+	position: absolute;
+	margin-left: 15px;
+}
+
+.logout{
+	position: absolute;
+	right: 30px;
+	top: 52px;
+}
+
+.email{
+	background-color: #003621;
+	padding-top: 8px;
+	color: white;
+	padding-left: 7px;
+}
+
+.out{
+	padding: 10px;
+}
+.btn a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #ffffff;
+	color: rgb(255, 255, 255);
+}
+
+.btn a:hover, a:active {
+  background-color: #ffffff;
+}
+
+#insert{
+	width: 75px;
+	height: 30px;
+	background-color: #7ec6e7;
+	color: white;
+}
+
+#insert:hover, a:active {
+  background-color: #ffffff;
+}
+
+#fname_error, #lname_error, #email_error, #password_error, #age_error, #dob_error, #gender_error, #mobile_error{
+	color: red;
+}
+
+.c_id{
+	color: red;
+}
+
+.not_found{
+	color: red;
+}
+
+.error{
+	color: green;
+}
+
+.back{
+	position: absolute;
+	right: 125px;
+	top: 52px;
+}
+
+.back2{
+	position: absolute;
+	margin-left: 700px;
+}
+
+.edit{
+	position: absolute;
+	right: 650px;
+	top: 52px;
+}
+
+#search_tutor, #update_submit, #search_student{
+	width: 90px;
+	background-color: #027202;
+
+}
+
+/* body {
+	background: #eee;
+} */
+.card {
+	border: none;
+
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.card:before {
+
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4px;
+	height: 100%;
+
+	transform: scaleY(1);
+	transition: all 0.5s;
+	transform-origin: bottom
+}
+
+.card:after {
+
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4px;
+	height: 100%;
+
+	transform: scaleY(0);
+	transition: all 0.5s;
+	transform-origin: bottom
+}
+
+.fonts {
+	font-size: 18px;
+}
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+}
+
+.student-profile .card {
+	border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin: 10px auto;
+	border: 10px solid #ccc;
+	border-radius: 50%;
+}
+
+.student-profile .card h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.student-profile .card p {
+	font-size: 16px;
+	color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+	font-size: 14px;
+	padding: 5px 10px;
+	color: #000;
+}
+

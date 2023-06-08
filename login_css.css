@@ -1,0 +1,65 @@
+
+
+
+body {
+  font-family: Helvetica;
+  background-image: url("../Image/login_bg.png");
+     }
+
+form {
+text-align: center;
+}
+
+#email {
+  width: 20%;
+  /* padding: 12px 20px; */
+  /* margin: 2px 0; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#password {
+  width: 20%;
+  /* padding: 12px 20px; */
+  /* margin: 2px 0; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#submit {
+  background-color: #0c81ee;
+  color: white;
+  padding: 10px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+#submit:hover {
+  opacity: .8;
+  background-color: #06436b;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 8px;
+}
+
+#error{
+  color: red;
+}
